@@ -1,5 +1,4 @@
 package DAY_1;
-
 import java.util.*;
 
 public class Q4 {
