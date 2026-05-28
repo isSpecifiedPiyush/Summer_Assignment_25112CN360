@@ -8,15 +8,13 @@ public class Q6 {
         Scanner sc = new Scanner(System.in);
 
         System.out.print("Enter the value of number of which reverse is to be finded :: ");
-        int num = sc.nextInt() , num_1 , rev = 0;
-
-        num_1 = num;
+        int num = sc.nextInt() , rev = 0;
 
         while(num != 0) {
             rev = (rev * 10) + (num % 10);
             num /= 10;
         }
 
-        System.out.print("The reverse of number " + num_1 + " is :: " + rev);
+        System.out.print("The reverse of number" + " is :: " + rev);
     }
 }

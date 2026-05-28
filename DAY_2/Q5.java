@@ -8,15 +8,13 @@ public class Q5 {
         Scanner sc = new Scanner(System.in);
 
         System.out.print("Enter the number of which the sum of Digits is to be finded :: ");
-        int num = sc.nextInt() , num_1 , sum = 0;
-
-        num_1 = num;
+        int num = sc.nextInt() , sum = 0;
 
         while(num != 0) {
             sum += num % 10;
             num /= 10;
         }
 
-            System.out.print("Sum of Digits of number " + num_1 + " is :: " + sum);
+            System.out.print("Sum of Digits of number" + " is :: " + sum);
     }
 }
