@@ -1,8 +1,6 @@
 package DAY_1;
-import java.io.*;
-import java.util.*;
-import java.util.Scanner;
 
+import java.util.*;
 
 class Q1 {
     public static void main(String[] args)
