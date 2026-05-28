@@ -4,7 +4,7 @@ import java.util.*;
 import java.util.Scanner;
 
 
-class sum_of_N_natural_numbers_by_loop {
+class Q1 {
     public static void main(String[] args)
     {
         int N = 0;
@@ -16,9 +16,8 @@ class sum_of_N_natural_numbers_by_loop {
         int sum = 0;
         System.out.println("Finding Sum of " + N + " numbers...");
 
-        for (int i = 1; i <= N; i++) {
-            sum += i;
-        }
+        sum = N*(N+1);
+        sum = sum/2;
       
         System.out.println("Sum of first " + N + " Natural Number = " + sum);
     }
