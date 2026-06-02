@@ -26,9 +26,9 @@ public class Q23 {
         int Bin_num = sc.nextInt() , cheak = NumberOfBit(Bin_num);
 
         if(cheak != 0) {
-            System.out.print("Number of bits is :: " + cheak);
+            System.out.print("Number of bits of 1 is :: " + cheak);
         } else {
-            System.out.print("Invalid input");
+            System.out.print("Invalid input"); 
         }
     }
 }
