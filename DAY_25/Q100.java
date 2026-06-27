@@ -6,7 +6,7 @@ public class Q100 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
-        System.out.print("Enter a sentence: ");
+        System.out.print("Enter a sentence :: ");
         String str = sc.nextLine();
 
         String[] words = str.split(" ");
@@ -21,7 +21,7 @@ public class Q100 {
             }
         }
 
-        System.out.println("Words sorted by length:");
+        System.out.println("Words sorted by length :: ");
         for (String word : words) {
             System.out.println(word);
         }
